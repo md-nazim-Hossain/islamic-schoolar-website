@@ -1,10 +1,12 @@
 import React, { useEffect, useState } from 'react';
+import Cart from '../Cart/Cart';
 import Scholar from '../Scholar/Scholar';
 import './Scholars.css'
 
 const Scholars = () => {
     const [scholars,setScholars] = useState([]);
-
+    const [scholarCount,setScholarCount] = useState(0);
+    const [scholarSalary,setScolarSalary] = useState([]);
     useEffect(() =>{
         fetch('./fakeData.JSON')
         .then(res => res.json())
@@ -12,35 +14,27 @@ const Scholars = () => {
     },[]);
     
     const handleAddToCart = (props) => {
-
-        console.log(props);
+        const {salary} = props;
+        const singleSalary = [...scholarSalary,salary]
+        setScolarSalary(singleSalary);
+        setScholarCount(() =>scholarCount + 1);
     }
     return (
         <div className='scholars'>
-            <div className='socholar-container'>
-                <div className="row row-cols-1 row-cols-md-3 g-4">
-                    {
-                        scholars.map(scholar => <Scholar
-                            key={scholar.name} 
-                            scholar = {scholar}
-                            handleAddToCart={handleAddToCart}
-                            >
-                            </Scholar>)
-                    }
+            <div className="row row-cols-1 row-cols-md-3 g-4">
+                {
+                    scholars.map(scholar => <Scholar
+                        key={scholar.name} 
+                        scholar = {scholar}
+                        handleAddToCart={handleAddToCart}
+                        >
+                        </Scholar>)
+                }
+            </div>
+                <div className='row row-cols-1 row-cols-md-1 text-center p-2'>
+                    <Cart scholarSalary={scholarSalary} scholarCount={scholarCount}></Cart>
                 </div>
             </div>
-            <div className='side-container text-center p-2'>
-                <div className='row row-cols-1 row-cols-md-1'>
-                    <div className='col'>
-                        <h3>Scholar Added: 0</h3>
-                        <h4>Total Cost: $</h4>
-                        <ul>
-
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
     );
 };
 
