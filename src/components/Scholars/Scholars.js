@@ -7,6 +7,8 @@ const Scholars = () => {
     const [scholars,setScholars] = useState([]);
     const [scholarCount,setScholarCount] = useState(0);
     const [scholarSalary,setScolarSalary] = useState([]);
+    const [names,setName] = useState([]);
+    
     useEffect(() =>{
         fetch('./fakeData.JSON')
         .then(res => res.json())
@@ -14,8 +16,10 @@ const Scholars = () => {
     },[]);
     
     const handleAddToCart = (props) => {
-        const {salary} = props;
-        const singleSalary = [...scholarSalary,salary]
+        const {salary,name} = props;
+        const singleSalary = [...scholarSalary,salary];
+        const scholarName = [...names,name];
+        setName(scholarName);
         setScolarSalary(singleSalary);
         setScholarCount(() =>scholarCount + 1);
     }
@@ -32,7 +36,12 @@ const Scholars = () => {
                 }
             </div>
                 <div className='row row-cols-1 row-cols-md-1 text-center p-2'>
-                    <Cart scholarSalary={scholarSalary} scholarCount={scholarCount}></Cart>
+                    <Cart 
+                        scholarSalary={scholarSalary} 
+                        scholarCount={scholarCount}
+                        name={names}
+                        >
+                        </Cart>
                 </div>
             </div>
     );
