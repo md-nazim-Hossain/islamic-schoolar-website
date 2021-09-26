@@ -28,7 +28,7 @@ const Scholars = () => {
             <div className="row row-cols-1 row-cols-md-3 g-4">
                 {
                     scholars.map(scholar => <Scholar
-                        key={scholar.name} 
+                        key={scholar.key} 
                         scholar = {scholar}
                         handleAddToCart={handleAddToCart}
                         >
