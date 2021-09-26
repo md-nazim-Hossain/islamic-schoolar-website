@@ -1,0 +1,138 @@
+[
+    {
+      "name": "Billal Philips",
+      "born": 1946,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Bilal_Philips.jpg",
+      "nationality": "Canadian",
+      "salary": 5000,
+      "denomination": "Sunni"
+    },
+    {
+      "name": "Nouman Ali Khan",
+      "born": 1975,
+      "image": "https://alamisharia.co.id/wp-content/uploads/2019/11/NAK.jpg",
+      "nationality": "Germany",
+      "salary": 5500,
+      "denomination": "Sunni"
+    },
+    {
+      "name": "Mufti Menk",
+      "born": 1946,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnHE70q1cQr88ZXmUMhUrxUG5HQShDi7A4ng&usqp=CAU",
+      "nationality": "Zimbabwe",
+      "salary": 5400,
+      "denomination": "Sunni"
+    },
+    {
+      "name": "Khalid Yasin",
+      "born": 1946,
+      "image": "https://i2.wp.com/muslimmotto.com/wp-content/uploads/2013/08/shaykh-khalid-yasin-quotes.jpg",
+      "nationality": "United States",
+      "salary": 6000,
+      "denomination": "Sunni"
+    },
+    {
+      "name": "Yusuf Estes",
+      "born": 1944,
+      "image": "http://klikmu.co/wp-content/uploads/2018/03/Screenshot_20180306-142524.jpg",
+      "nationality": "United States",
+      "salary": 7000,
+      "denomination": "Sunni"
+    },
+    {
+      "name": "Tariq Jameel",
+      "born": 1953,
+      "image": "https://www.thenews.com.pk/assets/uploads/updates/2020-12-22/762688_4830121_maulan_updates.jpg",
+      "nationality": "Pakistan",
+      "salary": 5600,
+      "denomination": "Sunni"
+    },
+    {
+      "name": "Yasmin Mogahed",
+      "born": 1980,
+      "image": "https://images.ctfassets.net/2h1qowfuxkq7/6Am3nwuCMwb5SfscizaIPN/baadb7361d7302f2875858447130086c/Yasmin_Mogahed.jpg?w=888&h=1196&q=85&fit=fill",
+      "nationality": "Egypt",
+      "salary": 5500,
+      "denomination": "Sunni"
+    },
+    {
+      "name": "Dr. Zakir Naik",
+      "born": 1965,
+      "image": "https://images.bisnis-cdn.com/posts/2020/04/29/1234121/zakir1.jpg",
+      "nationality": "India",
+      "salary": 10000,
+      "denomination": "Sunni"
+    },
+    {
+      "name": "Muhammad Taqi Usmani",
+      "born": 1943,
+      "image": "https://image.akurat.co/images/uploads/images/akurat_20191008043052_5165A0.jpg",
+      "nationality": "India",
+      "salary": 64000,
+      "denomination": "Sunni"
+    },
+    {
+      "name": "Omar Sulaiman",
+      "born": 1986,
+      "image": "https://pbs.twimg.com/profile_images/1250131743937564673/mCLwvgW8_400x400.jpg",
+      "nationality": "United States",
+      "salary": 5200,
+      "denomination": "Sunni"
+    },
+    {
+      "name": "Yasir Qadhi",
+      "born": 1975,
+      "image": "https://pbs.twimg.com/profile_images/557547543/FaceProfile.jpg",
+      "nationality": "United States",
+      "salary": 5100,
+      "denomination": "Sunni"
+    },
+    {
+      "name": "Suhaib Webb",
+      "born": 1972,
+      "image": "https://wagner.nyu.edu/files/styles/faculty_profile/public/faculty/headshots/img8233.jpg?itok=HPmNPaOm",
+      "nationality": "United States",
+      "salary": 5600,
+      "denomination": "Sunni"
+    },
+    {
+      "name": "Tariq Ramadan",
+      "born": 1962,
+      "image": "https://img.jakpost.net/c/2018/02/01/2018_02_01_39852_1517418509._large.jpg",
+      "nationality": "Switzerland",
+      "salary": 5900,
+      "denomination": "Sunni"
+    },
+    {
+      "name": "Abdullah bin  Hamid Ali",
+      "born": 1946,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7SUAM_YQE-ZsBHd69swsol3YH9ClH1PUBbw&usqp=CAU",
+      "nationality": "Canadian",
+      "salary": 5000,
+      "denomination": "Sunni"
+    },
+    {
+      "name": "Shabir Ally",
+      "born": 1978,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ1-lnyiUyYnOUo7jLnm6PzHyIDhcnoNbVeA&usqp=CAU",
+      "nationality": "Canadian",
+      "salary": 5000,
+      "denomination": "Sunni"
+    },
+    {
+      "name": "Mizanur Rahman Azhari",
+      "born": 1990,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWfPfC9DfCLeFyTQyvUECMgBdku-LywodGYQ&usqp=CAU",
+      "nationality": "Bangladesh",
+      "salary": 9000,
+      "denomination": "Sunni"
+    },
+    {
+      "name": "Delowar Hossain Syde",
+      "born": 1940,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSF3sAFwiB_vc_DRYpX7uEcqOmoUbLN1kwVmg&usqp=CAU",
+      "nationality": "Bangladesh",
+      "salary": 12000,
+      "denomination": "Sunni"
+    }
+  ]
