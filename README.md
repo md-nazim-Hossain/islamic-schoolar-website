@@ -1,6 +1,6 @@
 # My Project Name International Islamic Scholars Club
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is my project live site [International Islamic Scholar Club](https://condescending-goodall-19ebc0.netlify.app/).
 
 ## Available Scripts
 
