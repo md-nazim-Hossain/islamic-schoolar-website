@@ -18,7 +18,7 @@ const Cart = (props) => {
     }
     return (
         <div className='col pt-2'>
-            <div className='card pt-4 bg-dark text-white'>
+            <div className='card pt-4 bg-dark text-white cart'>
                 <div className='cart-body py-4'>
                     <h3 className='cart-title'>Scholar Added: {props.scholarCount}</h3>
                     <h4>Total Cost: ${salary}</h4>

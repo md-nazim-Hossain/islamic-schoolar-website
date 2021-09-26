@@ -8,7 +8,7 @@ const Scholars = () => {
     const [scholarCount,setScholarCount] = useState(0);
     const [scholarSalary,setScolarSalary] = useState([]);
     const [names,setName] = useState([]);
-    
+
     useEffect(() =>{
         fetch('./fakeData.JSON')
         .then(res => res.json())
@@ -35,7 +35,7 @@ const Scholars = () => {
                         </Scholar>)
                 }
             </div>
-                <div className='row row-cols-1 row-cols-md-1 text-center p-2'>
+                <div className='row row-cols-1 row-cols-md-1 text-center p-2 pe-0'>
                     <Cart 
                         scholarSalary={scholarSalary} 
                         scholarCount={scholarCount}
