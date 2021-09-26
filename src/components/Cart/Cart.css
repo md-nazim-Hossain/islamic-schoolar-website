@@ -2,3 +2,9 @@
     position: sticky;
     top:0;
 }
+.icon{
+    width: 45px;
+    height: 45px;
+    margin-right: 5px;
+    display: inline;
+}

@@ -3,7 +3,7 @@ import './Scholar.css'
 const Scholar = (props) => {
     const {name,born,image,nationality,salary} = props.scholar;
     return (
-        <div className="col pt-3">
+        <div className="col py-3">
             <div className="card h-100 d-flex justify-content-center align-items-center bg-dark text-white rounded">
                 <img src={image} className="card-img-top img" alt="..."/>
                 <div className="card-body">
