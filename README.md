@@ -7,12 +7,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 In the project directory, you can run:
 
 ## My page Vision
-## <ul>
+<ul>
 <li>Everybody Know Islam</li>
 <li> All Muslim People Know Deply about Islam</li>
 <li>And Build Up strong Community with each other muslim to all Muslim</li>
 <li>And will make Strong Community for withstand enemy of Islam</li>
 </ul>
+
 ### `npm start`
 
 Runs the app in the development mode.\
