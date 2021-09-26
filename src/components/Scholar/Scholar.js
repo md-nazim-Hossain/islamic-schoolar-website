@@ -1,7 +1,8 @@
 import React from 'react';
 import './Scholar.css'
 const Scholar = (props) => {
-    const {name,born,image,nationality,salary} = props.scholar;
+    const {name,born,image,nationality,salary,denomination} = props.scholar;
+    console.log(props)
     return (
         <div className="col py-3">
             <div className="card h-100 d-flex justify-content-center align-items-center bg-dark text-white rounded">
@@ -11,6 +12,7 @@ const Scholar = (props) => {
                     <h5 className="card-title">Born: {born}</h5>
                     <h5 className="card-title">Nationality: {nationality}</h5>
                     <h5 className="card-title">Salary: ${salary}</h5>
+                    <h5 className="card-title">Denomination: {denomination}</h5>
                 </div>
                 <div className='p-3'>
                     <button className='btn btn-danger text-white fw-bold' onClick={()=>props.handleAddToCart(props.scholar)}>
